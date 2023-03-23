@@ -9,7 +9,9 @@
 		<title>Alecia Kuyser</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- <link rel="stylesheet" href="assets/css/w3.css" /> -->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/sub.css" />
 	</head>
 	<body class="is-preload">
 
@@ -39,7 +41,7 @@
 
 				</div>
 
-				<div class="bottom">
+				<div class="bottom" style="background-color: #E27689;">
 
 					<!-- Social Icons -->
 						<ul class="icons">
@@ -87,15 +89,20 @@
 									<article class="item">
 										<a href="https://aleciakuyser.github.io/future-of-internet/" class="image fit"><img src="./images/futureofinternet.png" alt="" /></a>
 										<header>
-											<h3>Future of Internet</h3><a href="https://github.com/AleciaKuyser/future-of-internet" class="icon brands fa-github"><span class="label">Github</span></a>
-											<!-- Add a drop down for more information -->
+											<input type="checkbox" id="article-1" class="details-toggle"/>
+											<label for="article-1" class="w3-button details-label">
+												<h3>A Rough Guide to the Future Internet</h3>
+											</label>
+											<div class="details-text">
+												<p>I made this all, using just html and css, no javascript!</p>
+											</div>
+											<ul class="icons article-icons">
+												<li><a href="https://github.com/AleciaKuyser/future-of-internet" class="icon brands fa-github">
+													<span class="label">Github</span></a>
+												<li><a href="./reports/CS5020.pdf" class="icon solid fa-file" download><span class="label">Report</span></a>
+												<li><a href="https://aleciakuyser.github.io/future-of-internet/" class="icon solid fa-globe"><span class="label">Demo Link</span></a>
+											</ul>
 										</header>
-										<input type="checkbox" id="pros-cons" class="pro-con-toggle"/>
-										<label for="pros-cons" class="w3-button" style="width: 100%; height: 64pt"><h2>Details</h2></label>
-										
-										<div class="pro-con-text">
-											<span>I made this all, using just html and css, no javascript!</span>
-										</div>
 									</article>
 									<article class="item">
 										<!-- <a href="#" class="image fit"><img src="./images/gameboard-img.png" alt="" /></a> -->
@@ -106,15 +113,25 @@
 											</video>
 										</div>
 										<header>
-											<h3>Game Board</h3>
+											<input type="checkbox" id="article-2" class="details-toggle"/>
+											<label for="article-2" class="w3-button details-label">
+												<h3>Game Board</h3>
+											</label>
+											<div class="details-text image fit">
+												<p>This was a 5th year project for the "Interactive Software and Hardware" module, which I did with a teammate in about a week.
+												The project was done in React, with a firebase database supplied by the school as a backend (which is why a working version is not available).
+												I was responsible for the design, and most of the programming (particularly the aesthetic components of the programming - alignment, interactions, layout etc.).</p>
+												<p>Below are the wireframes I made when designing the project.</p>
+												<img src="./images/gameboard-wireframe-1.png"/>
+												<img src="./images/gameboard-wireframe-2.png"/>
+												<img src="./images/gameboard-wireframe-3.png"/>
+											</div>
+											<ul class="icons article-icons">
+												<li><a href="https://github.com/dck4/CS5041-P2"class="icon brands fa-github">
+													<span class="label">Github</span></a>
+												<li><a href="./reports/CS5041.pdf" class="icon solid fa-file" download><span class="label">Report</span></a>
+											</ul>
 										</header>
-										<a href="https://github.com/dck4/CS5041-P2" class="icon brands fa-github"><span class="label">Github</span></a>
-										<input type="checkbox" id="pros-cons" class="pro-con-toggle"/>
-										<label for="pros-cons" class="w3-button" style="width: 100%; height: 64pt"><h2>Details</h2></label>
-										
-										<div class="pro-con-text">
-											<img src="./images/gameboard-wireframes.png"/>
-										</div>
 									</article>
 								</div>
 								<div class="col-4 col-12-mobile">
